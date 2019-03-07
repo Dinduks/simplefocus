@@ -1,1 +1,5 @@
-document.body.style.border = "5px solid red";
+function focus() {
+  console.log('Hello');
+}
+
+browser.browserAction.onClicked.addListener(focus);
